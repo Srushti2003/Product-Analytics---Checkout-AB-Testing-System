@@ -145,6 +145,9 @@ Product Analytics & Checkout AB Testing System/
 ├── power bi/
 │   ├── Product Analytics & Checkout AB Testing Dashboard.pbix
 │   └── background.avif
+|   |__ screenshots/
+|       |__Product Analytics & Checkout AB Testing Dashboard_page-0001.jpg
+|       |__Screenshot 2026-10-27 200241.jpg
 │
 └── Commands and Scripts.docx
 ```
