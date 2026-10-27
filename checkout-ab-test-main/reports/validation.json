@@ -1,0 +1,74 @@
+{
+  "score": {
+    "true_rel_lift_during_test": 0.13710495748864826,
+    "estimated_rel_lift": 0.16902254352934143,
+    "estimate_ci": [
+      0.12368097506833,
+      0.21436411199035288
+    ],
+    "ci_contains_truth": true,
+    "true_steady_state_rel_lift": 0.06547700579843285,
+    "late_cohort_estimate": 0.10174002858983004,
+    "late_cohort_ci": [
+      0.03875935643792136,
+      0.16472070074173872
+    ],
+    "late_ci_contains_steady_state": true,
+    "segments": {
+      "platform=mobile": {
+        "true": 0.18960251688980212,
+        "estimate": 0.2741297741552022,
+        "ci": [
+          0.21046987791891975,
+          0.3377896703914846
+        ],
+        "ci_contains_truth": false
+      },
+      "platform=desktop": {
+        "true": 0.07366191758297203,
+        "estimate": 0.04736583920974202,
+        "ci": [
+          -0.016816356040443327,
+          0.11154803445992738
+        ],
+        "ci_contains_truth": true
+      }
+    }
+  },
+  "aa_permutation": {
+    "n_sims": 2000,
+    "false_positive_rate_raw": 0.0435,
+    "false_positive_rate_cuped": 0.046
+  },
+  "coverage": {
+    "n_sims": 300,
+    "coverage_raw": 0.94,
+    "coverage_cuped": 0.93,
+    "bias_raw_pp": -0.002074013610764633,
+    "bias_cuped_pp": -0.0032629680507771514,
+    "rmse_raw_pp": 0.26166231080790503,
+    "rmse_cuped_pp": 0.257552095402923,
+    "mean_ci_width_raw_pp": 1.04534749816831,
+    "mean_ci_width_cuped_pp": 1.0164931161867612
+  },
+  "peeking": {
+    "n_sims": 20000,
+    "fpr_fixed_horizon": 0.049,
+    "fpr_by_number_of_looks": [
+      0.0499,
+      0.0833,
+      0.10625,
+      0.12295,
+      0.138,
+      0.1518,
+      0.1632,
+      0.1741,
+      0.18265,
+      0.19045,
+      0.1982,
+      0.20545,
+      0.21075,
+      0.21595
+    ]
+  }
+}

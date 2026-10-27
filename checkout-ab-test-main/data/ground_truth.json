@@ -1,0 +1,45 @@
+{
+  "overall": {
+    "control_rate": 0.11369365678441783,
+    "treatment_rate": 0.12928162076457442,
+    "abs_lift": 0.015587963980156591,
+    "rel_lift": 0.13710495748864848
+  },
+  "overall_steady_state": {
+    "treatment_rate": 0.12113797700893622,
+    "rel_lift": 0.06547700579843307,
+    "abs_lift": 0.007444320224518394
+  },
+  "mobile": {
+    "control_rate": 0.10072614958525111,
+    "treatment_rate": 0.11982408106323345,
+    "abs_lift": 0.019097931477982333,
+    "rel_lift": 0.18960251688980234
+  },
+  "desktop": {
+    "control_rate": 0.13464142930060805,
+    "treatment_rate": 0.14455937516900297,
+    "abs_lift": 0.009917945868394923,
+    "rel_lift": 0.0736619175829718
+  },
+  "new": {
+    "control_rate": 0.09638093114000772,
+    "treatment_rate": 0.10286699309664714,
+    "abs_lift": 0.006486061956639422,
+    "rel_lift": 0.06729611220727305
+  },
+  "returning": {
+    "control_rate": 0.1278567065070948,
+    "treatment_rate": 0.1508906783301371,
+    "abs_lift": 0.023033971823042315,
+    "rel_lift": 0.18015458439611964
+  },
+  "effects": {
+    "mobile_logodds": 0.13,
+    "desktop_logodds": 0.01,
+    "novelty_logodds": 0.6,
+    "novelty_halflife_days": 3.0,
+    "aov_multiplier": 0.99,
+    "refund_multiplier": 1.05
+  }
+}

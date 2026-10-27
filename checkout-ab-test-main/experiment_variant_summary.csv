@@ -1,0 +1,3 @@
+variant,eligible_users,converted_users,total_orders,refunded_orders,total_revenue_usd,revenue_excluding_flagged_refunds_usd,conversion_rate,revenue_per_user_usd,average_order_value_usd,order_refund_rate
+control,29790,2301,2455,152,166292.5,156375.47,0.07724068479355488,5.582158442430345,67.73625254582485,0.06191446028513238
+treatment,29970,2760,2944,178,195297.96000000002,184242.07,0.0920920920920921,6.5164484484484495,66.3376222826087,0.06046195652173913
