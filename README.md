@@ -6,6 +6,7 @@ The project builds upon an existing open-source checkout A/B testing dataset and
 
 ## Table of Contents
 
+- [Portfolio Website](#portfolio-website)
 - [Project Overview](#project-overview)
 - [Dataset Source and Attribution](#dataset-source-and-attribution)
 - [Business Objectives](#business-objectives)
@@ -19,6 +20,10 @@ The project builds upon an existing open-source checkout A/B testing dataset and
 - [Installation and Execution](#installation-and-execution)
 - [Documentation](#documentation)
 - [Future Improvements](#future-improvements)
+
+## Portfolio Website
+
+The interactive case study is available in `index.html`. See the [GitHub Pages guide](docs/github-pages.md) for local preview and publication.
 
 ## Project Overview
 
